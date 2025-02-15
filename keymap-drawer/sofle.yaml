@@ -44,7 +44,7 @@ layers:
   - V
   - B
   - MUTE
-  - PLAY
+  - PLAY PAUSE
   - N
   - M
   - ','
@@ -119,9 +119,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PREVIOUS
+  - PLAY PAUSE
+  - NEXT
   raise:
   - BT CLR
   - {t: BT, h: '0'}
