@@ -1,66 +1,7 @@
 layout: {qmk_keyboard: sofle/rev1}
 layers:
-  default:
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - '-'
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - BSPC
-  - CAPS
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - ''''
-  - ESCAPE
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - MUTE
-  - PLAY PAUSE
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - RIGHT ALT
-  - DEL
-  - LEFT WIN
-  - {t: lower, h: toggle}
-  - LSHIFT
-  - RET
-  - SPACE
-  - RIGHT CONTROL
-  - \
-  - '['
-  - ']'
+  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, CAPS, A, S, D, F, G, H, J, K, L, ;, '''', ESCAPE,
+    Z, X, C, V, B, MUTE, PLAY PAUSE, N, M, ',', ., /, RIGHT ALT, DEL, LEFT WIN, lower, LSHIFT, RET, SPACE, RIGHT CONTROL, \, '[', ']']
   lower:
   - {t: ▽, type: trans}
   - F1
@@ -114,11 +55,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: default, h: toggle}
+  - {t: default, h: toggle, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - default
   - PREVIOUS
   - PLAY PAUSE
   - NEXT
@@ -236,7 +177,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
