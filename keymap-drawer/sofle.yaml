@@ -3,7 +3,7 @@ layers:
   default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, CAPS, A, S, D, F, G, H, J, K, L, ;, '''', ESCAPE,
     Z, X, C, V, B, MUTE, PLAY PAUSE, N, M, ',', ., /, RIGHT ALT, DEL, LEFT WIN, lower, LSHIFT, RET, SPACE, RIGHT CONTROL, \, '[', ']']
   lower:
-  - {t: ▽, type: trans}
+  - BT CLR ALL
   - F1
   - F2
   - F3
@@ -27,7 +27,7 @@ layers:
   - '9'
   - '0'
   - F12
-  - {t: ▽, type: trans}
+  - BT NXT
   - '!'
   - '@'
   - '#'
@@ -39,7 +39,7 @@ layers:
   - RIGHT
   - )
   - '|'
-  - {t: ▽, type: trans}
+  - BT PRV
   - '='
   - '-'
   - KP PLUS
@@ -53,9 +53,9 @@ layers:
   - ':'
   - \
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: raise, type: held}
+  - {t: BT, h: '0'}
+  - raise
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -115,7 +115,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -176,7 +176,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - {type: held}
   - ''
   - ''
